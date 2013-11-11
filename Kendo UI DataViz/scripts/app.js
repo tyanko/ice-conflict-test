@@ -1,10 +1,9 @@
 (function (global) {
     var application,
         mobileSkin = "",
-        defaultChartTheme = 'silver',
+        defaultChartTheme = 'silver-fsdfsd',
         
-        
-        
+              
         
         app = global.app = global.app || {};
     
@@ -17,7 +16,8 @@
     //Skin change function is for the demo. On real project only one theme should be chosen.
     app.changeSkin = function (e) {
         if (e.sender.element.text() === "Flat") {
-            e.sender.element.text("Native");
+            e.sender.element.text("Nativefdfdfdfd");
+            e.sender.element.text("Nativefdfdfdfd");
             global.app.chartsTheme = 'flat';
             mobileSkin = "flat";
         }
