@@ -17,10 +17,7 @@
             app.gauge.drawGauge();
             app.gauge.bindResizeEvent();
 
-            $gaugeSlider.attr({
-                max: 180,
-                min: 0,
-                value: value
+            
             });
 
             $gaugeSlider.on("change", function () {
@@ -47,6 +44,11 @@
                             from: 0,
                             to: 80,
                             color: "#c0c0c2"
+                            {
+                            from: 0,
+                            to: 80,
+                            color: "#c0c0c2"
+                        }
                         }, {
                             from: 80,
                             to: 120,
