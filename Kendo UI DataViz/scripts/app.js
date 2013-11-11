@@ -2,6 +2,10 @@
     var application,
         mobileSkin = "",
         defaultChartTheme = 'silver',
+        
+        
+        
+        
         app = global.app = global.app || {};
     
     app.chartsTheme = defaultChartTheme;    
